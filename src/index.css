@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+@layer base {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: 0;
+    }
+
+    body {
+        color: #fff;
+        background-color: #000;
+        font-family: Verdana, Geneva, Tohama, sans-serif;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
