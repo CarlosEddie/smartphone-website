@@ -37,7 +37,7 @@ function Highlights() {
 
                 <div className="text-center" id="camera">
                     <h3 className="text-4xl font-bold mb-10">Advanced Pro camera system</h3>
-                    <div className="grid grid-cols-3 gap-6">
+                    <div className="grid md:grid-cols-3 gap-6">
                         <div className="bg-gray-900 rounded-2xl p-8 hover:scale-105 hover:bg-gray-800 cursor-pointer transition-all duration-300">
                             <div className="text-4xl font-bold text-blue-600 mb-4">48MP</div>
                             <h4 className="text-xl font-semibold mb-2">Main</h4>
