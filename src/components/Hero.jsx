@@ -1,8 +1,11 @@
 function Hero() {
     return (
         <section className="relative h-screen overflow-hidden bg-black">
-            <div className="absolute top-18 bottom-0 right-0 left-0 z-0">
-                <img src="../../public/img/hero.jpg" alt="" className="w-full h-full object-cover opacity-90" />
+            <div className="absolute top-24 inset-x-0 z-0 h-full">
+                <picture>
+                    <source media="(max-width: 640px)" srcSet="../../public/img/hero-mobile.jpg" />
+                    <img src="../../public/img/hero.jpg" alt="iphone" className="w-full h-full object-cover opacity-90" />
+                </picture>
                 <div className="absolute inset-0 bg-linear-to-b from-black/30 via-transparent to-black/80">
 
                 </div>
