@@ -10,7 +10,7 @@ function Intro() {
     return (
         <section className="bg-black py-20 px-6">
             <div className="max-w-5xl mx-auto text-center">
-                <h1 className="text-6xl md:text-8xl font-bold mb-6">smartphone</h1>
+                <h1 className="text-6xl md:text-8xl font-bold mb-6">iPhone 17 Pro</h1>
                 <p className="text-2xl md:text-4xl mb-4 text-gradient font-bold">Titanium. So strong. So light. So powerful.</p>
                 <p className="text-lg md:text-xl to-gray-300 mb-10 max-w-3xl mx-auto">The most refined design we've ever created. Aerospace-grade titanium. Chip 18 Pro. Revolutionary pro camera system.</p>
             </div>
