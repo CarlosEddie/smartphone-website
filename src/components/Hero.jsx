@@ -4,7 +4,7 @@ function Hero() {
             <div className="absolute top-24 inset-x-0 z-0 h-full">
                 <picture>
                     <source media="(max-width: 640px)" srcSet="../../public/img/hero-mobile.jpg" />
-                    <img src="../../public/img/hero.jpg" alt="iphone" className="w-full h-full object-cover opacity-90" />
+                    <img src="../../public/img/hero.jpg" alt="smartphone" className="w-full h-full object-cover opacity-90" />
                 </picture>
                 <div className="absolute inset-0 bg-linear-to-b from-black/30 via-transparent to-black/80">
 

@@ -10,7 +10,7 @@ function Highlights() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
                     <div className="bg-gray-900 rounded-3xl p-8">
-                        <img className="w-full rounded-2xl mb-4" src="../../public/img/titanium-design.jpg" alt="iphone-titanium" />
+                        <img className="w-full rounded-2xl mb-4" src="../../public/img/titanium-design.jpg" alt="smartphone-titanium" />
                         <h3 className="font-bold mb-2 text-3xl">Titanium Premium</h3>
                         <p className="text-gray-300">Aerospace-grade titanium structure. The strongest and lightest smartphone</p>
                     </div>
