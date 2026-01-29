@@ -18,7 +18,7 @@ function Colors() {
         <section id="colors" className="bg-black py-20 px-8">
             <div className="max-w-7xl mx-auto">
 
-                <div className="text-center mb-16">
+                <div className="text-center mb-2 md:mb-16">
                     <h2 className="text-5xl md:text-6xl font-bold mb-4">Choose your color</h2>
                     <p className="text-xl text-gray-400">Four beautiful titanium finishes</p>
                 </div>
@@ -26,13 +26,13 @@ function Colors() {
                 <div className="flex justify-center mb-12">
                     <div className="relative w-full max-w-3xl">
                         
-                        <div className="relative flex items-center justify-center min-h-125">
+                        <div className="relative flex items-center justify-center min-h-72 md:min-h-125">
                             <img src={colors.find(color => color.id === selectedColor).image} alt="iphone 17" className="max-w-full max-h-150 mx-auto" />
                         </div>
 
-                        <div className="absolute bottom-8 left-0 right-0 text-center">
+                        <div className="absolute bottom-2 md:bottom-8 left-0 right-0 text-center">
                             <div className="px-8 py-4 rounded-full backdrop-blur-md bg-black/40 inline-block">
-                                <h3 className="text-2xl font-semibold">{colors.find(color => color.id === selectedColor).name}</h3>
+                                <h3 className="text-xl md:text-2xl font-semibold">{colors.find(color => color.id === selectedColor).name}</h3>
                             </div>
                         </div>
                         
