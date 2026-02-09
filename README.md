@@ -1,7 +1,7 @@
 # Smartphone Website
 
 ## About the project
-The project simulates a website for selling smartphones, with a modern and responsive design.
+The project simulates a website for selling smartphones, built with a modern and responsive design.
 
 ## Technologies
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
